@@ -4,9 +4,9 @@
  app.use('/',function(req,res){
    res.sendFile('index.html',{root:__dirname +'/'});
  });
-
- app.listen(5000,function(){
-   console.log('Its running at port 4000')
+  app.set('port',process.env.PORT||5000)
+ app.listen(app.get('port'),function(){
+   console.log('Its running at port' +app.get('port'))
  })
 
 
