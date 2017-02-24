@@ -4,7 +4,7 @@
   "description": "live graph",
   "main": "server.js",
   "scripts": {
-    "test": "node server.js"
+    "start": "node server.js"
   },
   "author": "Emanuel",
   "license": "ISC",
