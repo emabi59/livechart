@@ -1,0 +1,15 @@
+{
+  "name": "eon",
+  "version": "1.0.0",
+  "description": "live graph",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js"
+  },
+  "author": "Emanuel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.1",
+    "http": "0.0.0"
+  }
+}
